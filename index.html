@@ -1,0 +1,208 @@
+<html>
+<title>Example Webpage</title>
+	<head>
+		<meta charset="utf-8">
+		<link href="css/grid12.css" rel="stylesheet">
+		<style>
+			body{
+				background-image: url(images/bg.jpg);
+				/*background-image: url(ex.jpg);*/
+				background-repeat: no-repeat;
+				background-size: 100%;	
+			}
+			
+			.main 
+			{
+				background-color: rgba(0, 0, 0, 0.7);
+				background-size: 100%;
+			}
+			
+			.main2{
+				background-image: url(images/bg2.jpg);
+				background-repeat: no-repeat;
+				background-size: 100%;	
+			}
+			
+			#header{
+				height: 50%;
+			}
+			
+			#content{
+				height: 25%;
+			}
+			
+			#content2{
+				height: 100%;
+			}
+			
+			.logo{
+				width:110px;
+				height:120px;
+				margin-top: 18px;
+				margin-left: 55%;
+			}
+			
+			h1{
+				font-family: Arial;
+				font-size: 3.0em;
+				color:aliceblue;
+				text-align: center;
+				margin-top: -10%;
+			}
+			
+			h2{
+				font-family: Arial;
+				font-size: 1.1em;
+				text-align: center;
+				margin-top: 12%;
+				line-height: 30px;
+				color:aliceblue;
+			}
+			
+			h3{
+				font-family: Arial;
+				font-size: 1.5em;
+				text-align: left;
+				margin-top: 8%;
+				margin-left: 10%;
+				line-height: 30px;
+				color:aliceblue;
+			}
+			
+			a{
+				font-family: Arial;
+				font-size: 1.1em;
+				color:aliceblue;
+				margin-top: auto;
+				margin-bottom: auto;
+				text-decoration: none;
+
+			}
+			
+			p{
+				font-family: Arial;
+				font-size: 1.4em;
+				color:aliceblue;
+				text-align: center;
+				vertical-align: middle;
+			}
+			
+			ul{
+				margin-top: -140%;
+			}
+			
+			li{
+				color: #aaa;
+				list-style-type: disc;
+				font-size: 1.8em;
+			}
+			
+			
+			button{
+				margin-top: -5%;
+				margin-left: 20%;
+				border-radius: 50px;
+				height: 40px;
+				width: 145px;
+				border: 2px solid rgba(45, 178, 0, 0.9);
+				background-image: none; 
+				background-color: rgba(0, 0, 0, 0.5);
+			}
+			
+			button:hover{
+				color: #aaa;
+				background-color: rgba(45, 178, 0, 0.9);
+			}
+			
+			.content{
+				border: 2px solid rgba(45, 178, 0, 0.9);
+				border-radius: 50px;
+				width: 700px;
+				margin-left: auto;
+				margin-right: auto;
+				vertical-align:middle;
+				background-color: rgba(0, 0, 0, 0.5);
+			}
+				
+			u {
+				text-decoration: none;
+				color: rgba(45, 178, 0, 0.9);
+			}
+			
+			#treangle{
+				height: 50px;
+				width: 50px;
+			}
+			.treangle{
+				
+				position: absolute;
+				margin-top: -100%;
+				margin-left: 10%;
+			}
+			.down{
+				margin-top: 8%;
+			}
+		
+			.scroll_buttom {
+				background-image: url(images/arrow.png);
+				background-position: center;
+				background-repeat: no-repeat;
+				bottom:3%;				
+				padding: 16px 16px;
+			}
+			
+			.eagle{
+				position: absolute;
+				margin-top: -130%;
+				margin-left: 7%;
+			}
+			
+			
+		</style>
+	</head>
+
+	<body>
+	<div class="row-fluid main" id="main">	
+		
+		<!-----------------FOOTER----------------->
+		<div class="col-lg-4 col-md-4 col-sm-4" id="header">
+			<img src="images/logo.png" class="logo">
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4" id="header">
+			<h2>Ликвидация </br> юридических лиц </h2>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4" id="header">
+			<h3>+7 843 238 98 98</h3>
+			<button><a href="#">Заказать звонок</a></button>
+		</div>
+		
+		<!-----------------CONTENT----------------->
+		<div class="col-lg-1 col-md-1 col-sm-1" id="content"></div>
+
+		<div class="col-lg-10 col-md-10 col-sm-10" id="content">
+			<center><img class="treangle" id="treangle" src="images/treangle.png"></center>
+			<h1>За <u>14 дней</u> избавим Вас </br> от финансовой ответствености</h1>
+			<div class="content"><p>путем смены руководителя без проблем с налоговой </br> в соответствии с законом №14-ФЗ</p></div>
+		<div class="down"><p>Более <u>5 000</u> проведенных процедур ликвидации за <u>8</u> лет работы</p></div>
+		<center><a class="scroll_buttom"></a></center>
+		</div>
+		<div class="col-lg-1 col-md-1 col-sm-1" id="content">
+				
+			<img class="eagle" src="images/eagle.png">
+			
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		</div>	
+</body>	
+</html>
